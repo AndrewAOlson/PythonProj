@@ -347,7 +347,7 @@ def main():
             newdate1 = dateConverter(date1)
             newdate2 = dateConverter(date2)
 
-            if checkBetween(date1, date2) is False:
+            if checkBetween(newdate1, newdate2) is False:
                 print("The beginning date must be before the end date, please restart and enter valid dates")
             
             else:
