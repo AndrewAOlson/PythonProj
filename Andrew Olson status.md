@@ -6,8 +6,6 @@ Andrew Olson
 
 #### Your section leader's name
 
-Chong Li   
-
 #### Project title
 
 Baltimore Arrest Database Visualizer
@@ -22,7 +20,7 @@ My program takes an input, either a single date or a date range, and then using 
 
 The program checks to make sure the given date/date range is valid, then shows the map
 
-The stamp on the mad is red for felonies, blue for misdemeanors, and gray for unknown. It also displays the number of arrests in each district and the number of felony/misdemeanor arrests in the terminal
+The stamp on the mad is red for felonies, orange for misdemeanors, and gray for unknown. It also displays the number of arrests in each district and the number of felony/misdemeanor arrests in the terminal
 
 #### What have you not done for your project yet?
 
@@ -30,4 +28,4 @@ I can't decide whether to print the district and felony statistics in the termin
 
 #### What problems, if any, have you encountered?
 
-I haven't figured out how to get my code to work on github yet
+No problems, 
