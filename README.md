@@ -21,3 +21,5 @@ The dates in the csv and the dates the user inputs must be in M/D/YYYY format, s
 were adequate month, day, and year numbers. I then used the datetime module to compare the dates in the new format using the less than and greater than operators
 
 ## Video Link
+
+https://youtu.be/AxmJIDzjPZE 
