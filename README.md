@@ -20,6 +20,13 @@ The datetime module works with dates in a YYYY-MM-DD format, so in order to comp
 The dates in the csv and the dates the user inputs must be in M/D/YYYY format, so I split each date by the "/" character and then made sure there were 3 ints that
 were adequate month, day, and year numbers. I then used the datetime module to compare the dates in the new format using the less than and greater than operators
 
+## Methodology for categorizing arrests by charge and district
+
+The csv file contains the charge code and district in which the arrest took place. Categorizing by district was simple, just storing each arrest in a dictionary 
+based on the district for that row. Categorizing by arrest was more difficult, because it meant deciphering the charge codes. If the charge code was not given, I listed 
+it as unknown. After some research, I found that if the first number in the charge code was a 1, it was a misdemeanor arrest. If the first number was anything else, it 
+was a felony arrest.
+
 ## Video Link
 
 https://youtu.be/AxmJIDzjPZE 
